@@ -14,6 +14,7 @@ char** tracks = new char*[mes];
 
 char track[MAX_TRACK_NAME];
 
+   
 cout << "Введіть назви треків (введіть «стоп», щоб закінчити):" << endl;
  while (true) {
   cin.getline(track, MAX_TRACK_NAME);
